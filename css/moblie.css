@@ -1,0 +1,417 @@
+/*데탑*/
+@media screen and (max-width:1440px) {
+
+    .hd_wrap hgroup {
+        left: 10%;
+    }
+    #about{
+        height:100%;
+        padding-top: 120px;
+        box-sizing: border-box;
+        padding-bottom: 120px;
+    }
+    #about .about_area{
+        flex-direction: column;
+    }
+    #about .about_area .ab_img {
+        width: 70%;
+    }
+    #about .about_area .ab_txt {
+        text-align: center;
+        width: 59%;
+    }
+    #features .featurs_second {
+        padding-top: 160px;
+        height: 100%;
+        padding-bottom: 120px;
+    }
+    #features .featurs_second .hac_icon_area .icon h5 {
+        width: 216px;
+    }
+    #features .featurs_second .hac_icon_area .icon p::after {
+        width: 90%;
+        top: 20px;
+        left: 13px;
+    }
+    #features02 .featurs_third .featu03_txt p {
+        font-size: 26px;
+    }
+    #features02 .featurs_third::after {
+        top: -707px;
+}
+#features02 .bg {
+    right: -196px;
+}
+  }
+  
+  
+  
+  /*노트북*/
+  @media screen and (max-width:1024px) {
+
+    .hd_wrap hgroup {
+        left: 52%;
+        transform: translate(-50%);
+    }
+      .pc_wrap{
+          display: none;
+      }
+      .ham_bt{
+          display: block;
+      }
+
+
+    #home .home_area {
+        width: 60%;
+    }
+    #home .home_area .htxt_box h2 {
+        font-size: 2em;
+        line-height: 1.6;
+    }
+    #about {
+        padding-top: 100px;
+        height:100%;
+    }
+    #about .about_area .ab_img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    #about .about_area .ab_txt {
+        width: 94%;
+    }
+    #features .feat_area .features_first {
+        height: 100%;
+        padding-top: 232px;
+        padding-bottom: 200px;
+    }
+
+
+
+    #features .feat_area .features_first p {
+        font-size: 20px;
+    }
+  
+
+    #features .featurs_second{
+        padding-top: 0;
+        height:100%;
+        padding-bottom: 100px;
+    }
+
+    #features02 .bg {
+        right: -439px;
+        bottom: 235px;
+    }
+
+    #features02 .featurs_third .featu03_img img{
+        width: 100%;
+    }
+
+    #features02 .featurs_third::after {
+        top: -620px;
+    }
+    #features .featurs_second .hac_icon_area .arrow.C {
+        margin-right: 94px;
+    }
+    #features .featurs_second .hac_icon_area .icon p::after {
+        width: 100%;
+        top: 20px;
+        left: 0;
+    }
+  }
+  
+  
+  
+    /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+  
+    #home .home_area {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        left: 50%;
+        transform:translate(-50%);
+    }
+    #about {
+        padding-top: 0;
+        height: 100%;
+    }
+
+    #features .feat_area .features_first .hac_img_circle {
+        width: 250px;
+        height: 250px;
+    }
+    #features .featurs_second .hac_icon_area .icon::after {
+        left: 18px;
+    }
+    #features .featurs_second .hac_icon_area {
+        justify-content: space-around;
+    }
+    #features .feat_area .features_first p {
+    font-size: 15px;
+}
+    #features .featurs_second .hac_icon_area .icon {
+        width: 36%;
+    }
+    #features .featurs_second .hac_icon_area .arrow.C {
+        display: flex;
+        width: 20%;
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+  }
+  #features .featurs_second .hac_icon_area .arrow.C img {
+    transform: rotate(0deg);
+}
+#features .featurs_second .hac_icon_area .icon.a{
+    order:1;
+}
+#features .featurs_second .hac_icon_area .arrow.A{
+    order:2;
+}
+#features .featurs_second .hac_icon_area .icon.b{
+    order:3;
+}
+#features .featurs_second .hac_icon_area .arrow.B{
+    order:4;
+    width:63%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+#features .featurs_second .hac_icon_area .arrow.B img{
+    transform: rotate(90deg)
+}
+
+#features .featurs_second .hac_icon_area .icon.c{
+    order:7;
+}
+#features .featurs_second .hac_icon_area .arrow.C{
+    order:6;
+}
+#features .featurs_second .hac_icon_area .arrow.C img{
+    transform: rotate(180deg)
+}
+#features .featurs_second .hac_icon_area .icon.d{
+    order:5;
+}
+#features .featurs_second .hac_icon_area .arrow.D{
+    order:8;
+    display: flex;
+    align-items: flex-start;
+    width:72%;
+    flex-direction: row;
+}
+#features .featurs_second .hac_icon_area .arrow.D img {
+    transform: rotate(90deg);
+    flex-direction: row;
+}
+#features .featurs_second .hac_icon_area .icon.e{
+    order:9;
+}
+#features .featurs_second .hac_icon_area .arrow.E{
+    order:10;
+}
+#features .featurs_second .hac_icon_area .icon.f{
+    order:11;
+}
+
+#features .featurs_second .hac_icon_area .arrow.E img {
+    transform: rotate(0);
+}
+
+
+#features02 {
+    height: 100%;
+    padding-bottom: 200px;
+}
+#features02 .featurs_third .featu03_txt p {
+    font-size: 22px;
+    text-align: center;
+}
+#features02 .featurs_four {
+    color: #fff;
+    padding-top: 246px;
+}
+#features02 .bg {
+    left: 0;
+    bottom: 125px;
+}
+#features::after {
+    width: 100%;
+    height: 100%;
+    background: url(../img/featu_bg_m.png)no-repeat top center;
+}
+#features02 .bg img {
+    width: 63%;}
+
+}
+  
+  
+  /*모바일*/
+  
+  @media screen and (max-width:767px) {
+    .m_wrap {
+        width: 80%;
+    }
+    #about .about_area {
+        padding-top: 120px;
+        height: 100%;
+    }
+    #about .about_area .ab_txt {
+        width: 100%;
+    }
+    #about .about_area .ab_txt p {
+        font-size: 14px;
+    }
+    #about .about_area .ab_img {
+        width: 100%;
+    }
+    #features .feat_area .features_first {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        flex-direction: column;
+    }
+    #features::after {
+        background: url(../img/featu_bg_m2.png)no-repeat top center;
+    }
+
+    #features .feat_area .features_first div {
+        width: 100%;
+        padding: 30px 0 ;
+    }
+    #features02 .featurs_third .featu03_txt p {
+        font-size: 18px;
+    }
+    #features02 .featurs_four .featu04_txt p {
+        font-size: 22px;
+    }
+    #features02 .featurs_four .featu04_txt ul li img {
+        margin-right: 20px;
+    }
+    #features02 .featurs_four .featu04_txt ul li {
+        font-size: 24px;
+        display: flex;
+        line-height: 2;
+        align-items: center;
+    }
+    #features .featurs_second .hac_icon_area .icon h5 {
+        width: 185px;
+    }
+    
+  
+  }
+  
+  
+  /*모바일2*/
+  
+  
+  @media screen and (max-width:576px) {
+    .hd_wrap hgroup {
+        left: 55%;
+        transform: translate(-50%);
+    }
+    header{
+        border-bottom: none;
+    }
+    #home .home_area .htxt_box h2 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    #home .home_area .btn_box .btn {
+        padding: 5px 0;
+        border: 2px solid #69592E;
+        background-color: rgba(255, 255, 255, 0.6);
+        margin: 10px;
+        width: 150px;
+        
+    }
+    #home .home_area .btn_box .btn a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+  
+    #about .about_area .ab_txt p br{
+        display: none;
+    }
+    #about .about_area {
+        padding-top: 60px;
+        height: 100%;
+    }
+    #features .featurs_second img {
+        width: 120px;
+    }
+
+    #features .featurs_second .icon.b img {
+        width: 70px;
+    }
+    #features .featurs_second .hac_icon_area .icon.d img {
+        width: 90px;
+    }
+    #features .featurs_second .hac_icon_area .arrow img {
+        width: 30px;
+    }
+    #features .featurs_second .hac_icon_area .icon.f img {
+        width: 90px;
+    }
+    #features .featurs_second .hac_icon_area .icon::after {
+        content: '';
+        display: block;
+        background-color: #E6C76A;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 0;
+        bottom: 34px;
+        border-radius: 50%;
+        z-index: -10;
+    }
+    #features .hac_token_icon h4::after {
+        content: '';
+        display: block;
+        background-color: #E6C76A;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: -25px;
+        bottom: 34px;
+        border-radius: 50%;
+        z-index: -10;
+    }
+    #features .featurs_second .hac_icon_area .icon p {
+        width: 100%;
+        height: 188px;
+        font-size: 13px;
+        text-align: center;
+    }
+    #features .featurs_second .hac_icon_area .icon h5 {
+        background: #000;
+        color: #fff;
+        width: 126px;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+  }
+  
+  
+  
+  /*모바일3 갤럭시*/
+  
+  @media screen and (max-width:425px) {
+
+  }
+  
+  
+  
+  /*모바일4 아이폰*/
+  @media screen and (max-width:375px) {
+  
+ 
+  }
+  

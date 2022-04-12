@@ -1,12 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAECHI</title>
+    <!--js-->
+    <script src ="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/menu_scroll.js"></script>
+    <script src="js/header_scroll.js"></script>
+
+
+    <!--bootstrap-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!--css-->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/moblie.css">
+
 </head>
+
 <body>
+    <header>
+
+        <div class="hd_wrap nav-down">
+
+            <hgroup>
+                <h1><img src="img/logo_w.png" alt="logo_mp"></h1>
+            </hgroup>
+
+
+            <nav class="pc_wrap">
+
+                <ul>
+
+                    <li><a href="#home" class="scroll">HOME</a></li>
+                    <li><a href="#about" class="scroll">ABOUT</a></li>
+                    <li><a href="#features" class="scroll">FEATURES</a></li>
+                    <li><a href="#token" class="scroll">TOKEN</a></li>
+                    <li><a href="#roadmap" class="scroll">ROADMAP</a></li>
+                    <li class="lan_btn">
+                        <a href="index_en.html">KR <i class="xi-globus"></i></a>
+                        
+                    </li>
+                </ul>
+
+
+            </nav>
+
+
+
+            <!--반응형-->
+
+            <div class="ham_bt">
+                <img src="img/menu_w.png" alt="menu_button">
+            </div>
+
+
+            <nav class="m_wrap">
+
+                <ul>
+
+                    <li><a href="#home" class="scroll">HOME</a></li>
+                    <li><a href="#about" class="scroll">ABOUT</a></li>
+                    <li><a href="#features" class="scroll">FEATURES</a></li>
+                    <li><a href="#token" class="scroll">TOKEN</a></li>
+                    <li><a href="#roadmap" class="scroll">ROADMAP</a></li>
+                    <li class="lan_btn">
+                        <a href="index_en.html">KR <i class="xi-globus"></i></a>
+                        
+                    </li>
+                </ul>
+
+            </nav>
+
+
+            <!--반응형 js-->
+            <script type="text/javascript">
+                $(function () {
+                    $(".ham_bt").click(function () {
+                        $(".m_wrap").animate({ width: "toggle" }, 250);
+                    });
+                });
+
+            </script>
+
+
+        </div>
+
+
+        </div>
+
+
+    </header>
+
+
+<main>
     
+        <!-- 홈 -->
+        <section id="home">
+            <video autoplay muted loop playsinline>
+                <source src="video/main_vid.mp4" type="video/mp4">
+            </video>
+            <div class="home_area container">
+    
+                <div class="htxt_box">
+                    <h2>The Global Payment Platform<br>
+                        실사용 가상자산 플랫폼 HAECHI
+                    </h2>
+    
+                </div>
+                <!--메인 버튼-->
+                <div class="btn_box">
+    
+                    <button class="btn">
+                        <span><a href="Haechi_whiterpaper.pdf">
+                                Whitepaper</a></span>
+                    </button>
+    
+                    <button class="btn">
+                        <span><a href="Haechi_whiterpaper_en.pdf">
+                                Whitepaper_eng</a></span>
+    
+                    </button>
+    
+    
+                </div>
+            </div>
+        </section>
+    
+        <section id="about">
+            <div class="about_area container">
+                <div class="ab_img">
+                    <img src="img/about.png" alt="about">
+                </div>
+                <div class="ab_txt">
+                    <h3>ABOUT</h3>
+                    <p>Haechi 플랫폼은 모든 사람을 위해 만들어진 다기능 생태계를 추구합니다.<br>
+                        온라인 및 모바일 서비스상의 결제, 보상 및 거래에 사용되는 암호화폐<br>
+                        Haechi 플랫폼을 기반으로 하여 기존의 서비스와 개발 진행 중인 서비스 간에 <br>
+                        단절된 포인트 보상 체계, 콘텐츠 구매 및 결제를 통합하여. 이종 서비스간에도 <br>
+                        사용자의 자산이 이동, 거래될 수 있는 플랫폼 제작을 목표로 합니다.<br>
+                        보상 및 거래 시스템을 구축하고, 다른 분야 서비스와의 연결할 수 있는 자체 지갑 <br>
+                        개발 및 API 개발, 온프라인의 실물경제에서도 사용할 수 있는 생태계시스템을 <br>
+                        구축하여 사용자 에게 Haechi 의 사용성, 연결성과 지속성을 진행 하고자 합니다.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="features">
+            
+            <div class="feat_area container">
+                <div class="features_first">
+                    <div class="hac_first">
+                        <div class="hac_img_circle">
+                            <img src="img/features_1.png" alt="features1">
+                        </div>
+                        <p>HAC Wallet간의 내부전송은 <br>
+                            수수료가 없으며, 전송이 즉시 처리됩니다. <br>
+                            HAC Wallet에서 외부지갑 및 타플랫폼 전송 시 <br>
+                            수수료는 최소 수수료로 운영됩니다.
+                            </p>
+                    </div>
+                    
+                    <div class="hac_second">
+                        <div class="hac_img_circle">
+                            <img src="img/features_2.png" alt="features1">
+                        </div>
+                        <p>H.PAY는 HAECHI을 On-Off Line에서 <br>
+                            결제, 보상이 가능하게 하는 결제 서비스로, <br>
+                            H.PAY와 HAC는 1:1의 동일한 가치를 갖습니다. <br>
+                            H.Pay는 블록체인 기반 암호화폐인 HAECHI를 결제에 <br>
+                            사용하기 위한 간편결제 서비스로 현재 H.PAY는 다양한 <br>
+                            서비스에 연동되어 실생활에 사용할 수 있습니다.
+                            
+                            </p>
+                    </div>
+                </div>
+                
+                <div class="featurs_second container">
+                    <div class="hac_token_icon">
+                        <img src="img/hac_logo_b.png" alt="haechi token">
+                        <h4>Haechi Token</h4>
+                    </div>
+                    <div class="hac_icon_area">
+                        <div class="icon a">
+                            <img src="img/hac_wallet.png" alt="hac wallet">
+                            <h4>Haechi Wallet</h4>
+                        </div>
+                        <div class="arrow A">
+                            <img src="img/arrow.png" alt="arrow">
+                        </div>
+                        <div class="icon b">
+                            <img src="img/refresh1.png" alt="h.pay change">
+                            <h4>H.PAY Change</h4>
+                        </div>
+                        <div class="arrow B">
+                            <img src="img/arrow.png" alt="arrow">
+                        </div>
+                        <div class="icon c">
+                            <h5>Haechi Ecosystem</h5>
+                            <p>Shopping mall <br>
+                                Hotel<br>
+                                Restaurant<br>
+                                Global Exchange<br>
+                                Reward Pool<br>
+                                H.PAY Various<br>
+                                Payment Systems</p>
+                        </div>
+                        <div class="arrow C">
+                            <img src="img/arrow.png" alt="arrow">
+                            <h4>Usage details</h4>
+                        </div>
+                        <div class="icon d">
+                            <img src="img/h.paySystem.png" alt="h.pay system">
+                            <h4>H.PAY System</h4>
+                        </div>
+                        <div class="arrow D">
+                            <img src="img/arrow.png" alt="arrow">
+                            <h4>Point settlement</h4>
+                        </div>
+                        <div class="icon e">
+                            <img src="img/hac_wallet.png" alt="hac wallet">
+                            <h4>Haechi Wallet</h4>
+                        </div>
+                        <div class="arrow E">
+                            <img src="img/arrow.png" alt="arrow">
+                        </div>
+                        <div class="icon f">
+                            <img src="img/globalExchange.png" alt="globalExchange">
+                            <h4>Global Exchange</h4>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+    
+        </section>
+    
+        <section id ="features02">
+            <div class="featurs_third container">
+                <div class="featu03_txt">
+                    <h3>Haechi ECOSYSTEM</h3>
+                    <p>Haechi는 생태계시스템에서 사용되는 기본이 되는 암호화폐 입니다.</p>
+                </div>
+                <div class="featu03_img">
+                    <img src="img/ecostys.png" alt="ecostys">
+                </div>
+            </div>
+    
+            <div class="featurs_four container">
+                <div class="featu04_txt">
+                    <h3>Wallet App 서비스</h3>
+                    <p>쉽게 만나는 자산 관리의 혁신, Haechi WALLET <br>
+                        안전한 거래, 다양한 서비스에서 발생되는 <br>
+                        보상 및 결제 기능을 통합 관리하는 지갑
+                        </p>
+                        <ul class="wallet_list">
+                            <li>
+                                <img src="img/circle-check1.png" alt="check1" class="">
+                                HAC 입출금
+                            </li>
+                            <li>
+                                <img src="img/circle-check2.png" alt="check2" class="">
+                                H.PAY 서비스
+                            </li>
+                            <li>
+                                <img src="img/circle-check3.png" alt="check3" class="">
+                                H.PAY 간편결제
+                            </li>
+                            <li>
+                                <img src="img/circle-check4.png" alt="check4" class="">
+                                서비스 보상 포인트 전환
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="bg">
+                <img src="img/wallet_bg.png" alt="배경">
+            </div>
+        </section>
+</main>
+
+
 </body>
+
 </html>
