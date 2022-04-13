@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px){}
+#token .token_txt_area p {
+    line-height: 25px;
+    width: 90%;
+}
+}
+
+
+#features02 .featurs_four .featu04_txt p{
+    width:50%;
+}

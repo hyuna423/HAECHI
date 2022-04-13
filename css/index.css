@@ -66,6 +66,7 @@ header {
   
   .pc_wrap {
       text-align: center;
+      margin-left: 45px;
   }
   
   
@@ -228,7 +229,7 @@ header {
 }
 #home .home_area{
     position: absolute;
-    width: 50%;
+    width: 55%;
     top: 40%;
     left: 0;
     display: flex;
@@ -242,28 +243,35 @@ header {
 #home .home_area .htxt_box h2{
     font-size: 3em;
     line-height: 1.6;
+    font-weight: 700;
     text-align: center;
 }
+
 #home .home_area .btn_box{
     display:flex;
 }
+
 #home .home_area .btn_box .btn{
-    padding: 10px 50px;
+    padding: 15px 50px;
     border:2px solid #69592E;
     background-color:rgba(255, 255, 255, 0.6);
     margin: 10px;
     width: 240px;
 }
+
 #home .home_area .btn_box .btn:hover{
     background-color:rgba(255, 255, 255, 0)
 }
+
 #home .home_area .btn_box .btn a{
     text-decoration: none;
 }
+
 #home .home_area .btn_box .btn :hover a{
     cursor: pointer;
     color: #fff;
 }
+
 #home video{
     width: 100%;
 }
@@ -285,9 +293,8 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../img/about_bg.png)no-repeat top center;
+    background: url(../img/about_bg.png) no-repeat top center;
     z-index: -1;
-
 }
 
 #about .about_area{
@@ -342,7 +349,7 @@ header {
     height: 100%;
     top: 0;
     left: 0;
-    background:url(../img/featu_bg.png)no-repeat top center;
+    background:url(../img/featu_bg.png) no-repeat top center;
     z-index: -1;
 }
 
@@ -368,7 +375,7 @@ header {
     padding-top: 30px;
     color: #fff;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 }
 #features .feat_area .features_first div{
     width: 50%;
@@ -526,7 +533,7 @@ header {
 #features .featurs_second .hac_icon_area .arrow.C  {
     display:flex;
     width:100%;
-    margin-right: 220px;
+    margin-right: 280px;
     padding: 50px 0;
     flex-direction:row-reverse;
 }
@@ -562,7 +569,7 @@ header {
     box-sizing: border-box;
 }
 #features02 .featurs_third .featu03_txt p{
-    font-size: 32px;
+    font-size: 28px;
 }
 #features02 .featurs_third::after{
     content: "";
@@ -585,19 +592,23 @@ header {
     padding-bottom: 300px;
 }
 #features02 .featurs_four .featu04_txt{}
+
 #features02 .featurs_four .featu04_txt p{
-    font-size: 28px;
+    font-size: 25px;
 }
+
 #features02 .featurs_four .featu04_txt ul{
-    padding-top: 53px;
+    padding-top: 50px;
 }
 #features02 .featurs_four .featu04_txt ul li{
-    font-size: 30px;
+    font-size: 26px;
     display: flex;
-    line-height: 1.8;
+    line-height: 2;
     align-items: center;
 }
-#features02 .featurs_four .featu04_txt ul li img{}
+#features02 .featurs_four .featu04_txt ul li img{
+    margin-right: 15px;
+}
 
 #features02 .bg{
     transform: rotate(-20deg);
@@ -608,4 +619,256 @@ header {
 }
 #features02 .bg img{
  width: 80%;
+}
+
+
+
+/*토큰*/
+
+#token {
+    width: 100%; 
+    padding: 100px 0;
+}
+
+.token_area{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+#token .token_txt_area{
+    width: 60%;
+}
+
+#token .token_txt_area p{
+    line-height: 25px;
+    width:60%
+}
+
+.token_int{
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.token_int div{
+    width: 50%;
+    float: left;
+}
+
+.token_int div h4{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.token_int div h4 img{
+    vertical-align: middle;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+.token_int div p{
+    margin-left: 40px;
+}
+
+.token_sq p span{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.token_sq p .sq1{background-color: #99813D ;}
+.token_sq p .sq2{background-color: #0F1D4D ;}
+.token_sq p .sq3{background-color: #3D5299 ;}
+.token_sq p .sq4{background-color: #4D3E17 ;}
+.token_sq p .sq5{background-color: #E5C773 ;}
+
+
+.token_circle img{
+    max-width: 100%;
+    padding: 20px;
+    border: 5px solid #38333A;
+    border-radius: 50px;
+}
+
+
+
+/*roadmap*/
+#roadmap{
+    background-color: #38333A;
+    width: 100%;
+    padding: 150px 0;
+}
+
+.roadmap{
+    color: #fff;
+    text-align: center;
+}
+
+.roadmap .sec_div{
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.sec_div div{
+    width: 22%;
+    height: 150px;
+    margin-left: 3%;
+    float: left;
+    color: #000;
+    border: 2px solid #F2DA71;
+    border-radius:30px ;
+}
+
+.sec_div div:nth-child(4){
+    margin-bottom:20px;
+}
+
+.sec_div div p{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 30px;
+    height: 85%;
+    padding: 20px;
+    line-height: 25px;
+    width: 94%;
+}
+
+
+/*오른쪽화살표*/
+.speech-bubble {
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 23px solid transparent;
+	border-left-color: #fff;
+	border-right: 0;
+	margin-top: 50px;
+	margin-right: -175px;
+}
+
+
+/*왼쪽화살표*/
+.speech-bubble2 {
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+}
+
+.speech-bubble2:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 23px solid transparent;
+	border-right-color: #fff;
+	border-left: 0;
+	margin-top: 50px;
+	margin-left: -175px;
+}
+
+
+/*아래화살표*/
+.speech-bubble3 {
+	position: relative;
+	background: #fff;
+	border-radius: .4em;
+}
+
+.speech-bubble3:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 23px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	margin-left: -23px;
+	margin-bottom: -157px;
+}
+
+
+
+
+/*푸터*/
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    padding: 50px  0 0px 0;
+    position: relative;
+}
+
+.footer_Area{
+    text-align: center;
+}
+
+.footer_Area .c{
+    font-size: 14px;
+    color: rgb(146, 146, 146);
+}
+
+.logo_f img{
+    max-width:10%;
+    vertical-align: middle;
+}
+
+.contact{
+    margin:50px 0;
+}
+
+.contact div{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.contact h5{
+    font-size: 17px;
+}
+
+.contact p{
+    color: rgb(82, 82, 82);
+}
+
+.contact .si_button a{
+    display: block;
+    width: 200px;
+    padding: 5px 0;
+    background-color: #E6C76A;
+}
+
+
+
+
+.footer_sns{
+    position: absolute;
+    right:200px;
+    top: 50px;
+}
+
+.footer_sns a{
+    display: block;
+    border: 3px solid #867D64;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+
+.footer_sns a img{
+    max-width: 60%;
+    vertical-align: middle;
 }

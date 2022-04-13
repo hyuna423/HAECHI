@@ -68,18 +68,28 @@
         font-size: 2em;
         line-height: 1.6;
     }
+
+
     #about {
         padding-top: 100px;
         height:100%;
     }
+
+    #about .about_area {
+        height: 100%;
+    }
+
     #about .about_area .ab_img {
         width: 80%;
         display: flex;
         justify-content: center;
     }
+    
     #about .about_area .ab_txt {
         width: 94%;
+        margin-top: 40px;
     }
+
     #features .feat_area .features_first {
         height: 100%;
         padding-top: 232px;
@@ -112,13 +122,55 @@
         top: -620px;
     }
     #features .featurs_second .hac_icon_area .arrow.C {
-        margin-right: 94px;
+        margin-right: 110px;
     }
     #features .featurs_second .hac_icon_area .icon p::after {
         width: 100%;
         top: 20px;
         left: 0;
     }
+
+    #features02 .featurs_third .featu03_txt p {
+        font-size: 24px;
+    }
+
+    #token .token_txt_area p {
+        line-height: 25px;
+        width: 90%;
+    }
+
+
+
+
+   /*오른쪽화살표*/ 
+   .speech-bubble:after {
+    margin-right: -108px;
+}
+
+/*왼쪽화살표*/
+.speech-bubble2:after {
+	margin-left: -110px;
+}
+
+
+.sec_div div p {
+    width: 88%;
+}
+
+
+
+#roadmap .roadmap .sec_div .road_sec p{
+    overflow:scroll;
+}
+
+    .footer_sns{
+        position: absolute;
+        right:80px;
+        top: 50px;
+    }
+
+
+
   }
   
   
@@ -131,11 +183,22 @@
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 20px;
         left: 50%;
-        transform:translate(-50%);
+        top: 60%;
+        transform: translate(-50%, -50%);
+        padding: 20px 0;
     }
+    #home .home_area .htxt_box h2{font-size: 1.6em;padding: 0 10%; text-align: center;}
+    #home .home_area .htxt_box br{
+        display: none;
+    }
+    
     #about {
         padding-top: 0;
         height: 100%;
+    }
+
+    #about .about_area {
+        height: 95vh;
     }
 
     #features .feat_area .features_first .hac_img_circle {
@@ -246,6 +309,52 @@
 #features02 .bg img {
     width: 63%;}
 
+
+    .token_area{
+    display: block;
+    }
+
+
+    #token .token_txt_area p {
+        font-size: 18px;
+        
+    }
+
+    .token_int {
+        margin: 30px 0;
+    }
+    
+.token_circle{
+    text-align: center;
+    margin-top:80px;
+}
+
+.sec_div div p {
+    font-size: 14px;
+    width: 85%;
+}
+
+
+
+
+.footer_sns{
+    right:30px;
+    top: 30px;
+}
+   /*오른쪽화살표*/ 
+   .speech-bubble:after {
+    margin-right: -83px;
+}
+
+/*왼쪽화살표*/
+.speech-bubble2:after {
+	margin-left: -86px;
+}
+.sec_div div p br{
+    display:none;
+}
+
+
 }
   
   
@@ -303,7 +412,13 @@
         width: 185px;
     }
     
-  
+    .speech-bubble:after {
+        margin-right: -70px;
+    }
+    .speech-bubble2:after {
+        margin-left: -65px;
+    }
+   
   }
   
   
@@ -396,6 +511,42 @@
         padding: 5px;
         font-size: 13px;
     }
+    
+.sec_div div {
+    margin-bottom: 6%;
+}
+.speech-bubble:after {
+	display:none;
+}
+/*왼쪽화살표*/
+.speech-bubble2:after {
+	display:none;
+}
+.speech-bubble3:after{
+    display:none;
+}
+
+sec_div div p {
+    width: 100%;
+}
+
+#roadmap .roadmap .sec_div{
+    display:flex;
+    flex-wrap: wrap;
+}
+#roadmap .roadmap .sec_div .road_sec.s{
+    order:4;
+}
+#roadmap .roadmap .sec_div .road_sec.t{
+    order:3;
+}
+#roadmap .roadmap .sec_div .road_sec.u{
+    order:2;
+}
+#roadmap .roadmap .sec_div .road_sec.v{
+    order:1;
+}
+
 
   }
   
@@ -404,6 +555,46 @@
   /*모바일3 갤럭시*/
   
   @media screen and (max-width:425px) {
+
+    #token .token_txt_area p {
+        font-size: 15px;
+    }
+
+    /*로드맵 도형*/
+    .sec_div div{
+        width: 49%;
+        height: 150px;
+        margin-left: 1%;
+        float: left;
+    }
+
+     /*오른쪽화살표*/ 
+   .speech-bubble:after {
+	margin-right: -80px;
+}
+
+/*왼쪽화살표*/
+.speech-bubble2:after {
+	margin-left: -85px;
+}
+
+
+    .logo_f img {
+        max-width: 35%;
+        vertical-align: middle;
+    }
+
+    .contact div {
+        display: block;
+        margin-right: 0px;
+    }
+
+    .contact .si_button a {
+        color: rgb(75, 75, 75);
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
 
   }
   
