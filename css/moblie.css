@@ -313,13 +313,15 @@
     .token_area{
     display: block;
     }
-
+    #token .token_txt_area {
+        width: 100%;
+    }
 
     #token .token_txt_area p {
         font-size: 18px;
-        
+        width: 100%;
     }
-
+    
     .token_int {
         margin: 30px 0;
     }
@@ -511,7 +513,7 @@
         padding: 5px;
         font-size: 13px;
     }
-    
+
 .sec_div div {
     margin-bottom: 6%;
 }
@@ -594,7 +596,9 @@ sec_div div p {
         text-decoration: none;
         margin: 0 auto;
     }
-
+    #token .token_txt_area p {
+        width: 100%;
+    }
 
   }
   
