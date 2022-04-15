@@ -1,3 +1,7 @@
+#home .home_area {
+    width: 52%;
+}
+
 @media screen and (max-width: 1024px){
 #token .token_txt_area p {
     line-height: 25px;

@@ -249,6 +249,9 @@ header {
 
 #home .home_area .btn_box{
     display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    clear: both;
 }
 
 #home .home_area .btn_box .btn{
@@ -256,7 +259,6 @@ header {
     border:2px solid #69592E;
     background-color:rgba(255, 255, 255, 0.6);
     margin: 10px;
-    width: 240px;
 }
 
 #home .home_area .btn_box .btn:hover{
@@ -266,6 +268,12 @@ header {
 #home .home_area .btn_box .btn a{
     text-decoration: none;
 }
+#home .home_area .btn_box02 .btn02 a{
+    text-decoration: none;
+    color: #38333A;
+    font-size: 1.2em;
+}
+
 
 #home .home_area .btn_box .btn :hover a{
     cursor: pointer;
@@ -275,6 +283,31 @@ header {
 #home video{
     width: 100%;
 }
+#home .home_area .btn_box02{
+    width: 52%;
+    display: flex;
+    justify-content: center;
+}
+
+#home .home_area .btn_box02 .btn02{
+    padding: 15px 50px;
+    border:2px solid #69592E;
+    background-color:rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    width: 90%;
+    border-radius: 5px;
+    
+}
+#home .home_area .btn_box02 .btn02:hover{
+    background-color:rgba(255, 255, 255, 0);
+    transition:all .2s;
+}
+#home .home_area .btn_box02 .btn02:hover a{
+    cursor: pointer;
+    color: #fff;
+    
+}
+
 
 
 /* 어바웃 */
