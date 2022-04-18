@@ -410,6 +410,11 @@
         line-height: 2;
         align-items: center;
     }
+
+    #features02 {
+        padding-top: 143px;
+
+    }
     #features .featurs_second .hac_icon_area .icon h5 {
         width: 185px;
     }
@@ -576,6 +581,11 @@ sec_div div p {
             font-size: 1em;
         }
 
+        #features02 {
+        
+            padding-top: 45px;
+        }
+
      /*오른쪽화살표*/ 
    .speech-bubble:after {
 	margin-right: -80px;
@@ -605,6 +615,16 @@ sec_div div p {
     #token .token_txt_area p {
         width: 100%;
     }
+      
+    #features02 .featurs_four .featu04_txt p {
+        font-size: 16px;
+    }
+    #features02 .featurs_four .featu04_txt ul li {
+        font-size: 20px;
+    }
+    #token .token_txt_area p {
+        font-size: 14px;
+    }
 
   }
   
@@ -613,6 +633,6 @@ sec_div div p {
   /*모바일4 아이폰*/
   @media screen and (max-width:375px) {
   
- 
+
   }
   
